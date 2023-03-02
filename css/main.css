@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Source Sans Pro";
     background: black;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +46,7 @@ header .navigation a {
     border-radius: 20px;
     transition: 0.4s;
     background: rgba(0, 0, 0, 0);
+    font-size: 20px;
 }
 
 header .navigation a:hover {
@@ -67,7 +68,6 @@ main .contacts {
 }
 
 main .contactsRu {
-    font-size: 32px;
     background: rgba(211, 211, 211, 0);
 }
 
@@ -75,16 +75,21 @@ main .contactsEn {
     font-size: 24px;
     background: rgba(211, 211, 211, 0);
     padding-bottom: 48px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 main .contacts a {
     padding: 16px;
     color: lightgray;
-    background: rgb(210, 100, 59);
+    background: rgb(210, 100, 60);
     border-radius: 10px;
     text-decoration: none;
     font-size: 24px;
+    transition: 0.4s;
+}
+
+main .contacts a:hover {
+    background: rgb(200, 80, 40);
 }
 
 /* PHOTO */
@@ -93,11 +98,12 @@ main .contacts a {
     margin: 96px auto;
 }
 
-main .policyRu {
+/* POLICY */
+main .policy {
     background: rgba(211, 211, 211, 0.173);
     width: 90%;
     height: auto;
-    margin: 40px auto;
+    margin: 40px auto 96px auto;
     padding: 40px;
     color: lightgray;
     align-items: center;
@@ -105,18 +111,18 @@ main .policyRu {
     border-radius: 20px;
 }
 
-main .policyRu h1 {
+main .policy h1 {
     background: rgba(211, 211, 211, 0.0);
     text-align: center;
     padding-bottom: 20px;
 }
 
-main .policyRu ol {
+main .policy ol {
     background: rgba(211, 211, 211, 0);
     padding-left: 40px;
 }
 
-main .policyRu li {
+main .policy li {
     background: rgba(211, 211, 211, 0);
     font-size: 20px;
     padding: 8px;
