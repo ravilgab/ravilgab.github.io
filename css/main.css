@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro";
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    background: url("../images/backgroundImage.png");
+    background-size: cover; 
+    background-position: center;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 96px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    padding-right: 20px;
+    width: 96px;
+}
+
+header .navigation a {
+    color: lightgray;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+header .navigation a:hover {
+    background: rgba(211, 211, 211, 0.173);
+}
+
+main {
+    margin: 0;
+}
+
+#phoneImage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    /* align-items: center; */
+}
+
