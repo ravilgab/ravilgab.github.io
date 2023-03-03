@@ -10,6 +10,10 @@
     scroll-behavior: smooth;
 }
 
+div {
+    scroll-margin-top: 96px;
+  }
+
 body {
     margin: 0;
     background: url("../images/backgroundImage.png");
@@ -39,17 +43,22 @@ header .logo {
     width: 96px;
 }
 
+header .navigation {
+    background: transparent;
+}
+
 header .navigation a {
     color: lightgray;
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 20px;
     transition: 0.4s;
-    background: rgba(0, 0, 0, 0);
+    background: transparent;
     font-size: 20px;
 }
 
-header .navigation a:hover {
+header .navigation a:hover,
+header .navigation a:active {
     background: rgba(211, 211, 211, 0.173);
 }
 
@@ -68,12 +77,12 @@ main .contacts {
 }
 
 main .contactsRu {
-    background: rgba(211, 211, 211, 0);
+    background: transparent;
 }
 
 main .contactsEn {
     font-size: 24px;
-    background: rgba(211, 211, 211, 0);
+    background: transparent;
     padding-bottom: 48px;
     font-weight: 300;
 }
@@ -112,18 +121,19 @@ main .policy {
 }
 
 main .policy h1 {
-    background: rgba(211, 211, 211, 0.0);
+    background: transparent;
     text-align: center;
     padding-bottom: 20px;
 }
 
 main .policy ol {
-    background: rgba(211, 211, 211, 0);
+    background: transparent;
     padding-left: 40px;
 }
 
 main .policy li {
-    background: rgba(211, 211, 211, 0);
+    background: transparent;
     font-size: 20px;
     padding: 8px;
 }
+
